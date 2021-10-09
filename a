@@ -1,1 +1,24 @@
-sfdsfdsfas 
+// To create
+// after creating repository
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/shivam-pandey9/test.git
+git push -u origin main
+
+
+// exiting
+git remote add origin https://github.com/shivam-pandey9/test.git
+git branch -M main
+git push -u origin main
+
+
+// to update
+
+git add .
+git commit -m "abc"
+git push -u origin main
+(use token key for auth PAT)
+
